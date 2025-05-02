@@ -1,0 +1,26 @@
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+
+
+/*Анимация для прозрачности ссылок*/
+.page a {
+    transition: opacity 0.3s ease;
+}
+
+a:hover {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,17 @@
+@keyframes rotation {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+
+}
+
+.header__square-pic {
+    animation: rotation 20s linear infinite forwards;
+}
+
+.kaufman__triangle {
+  animation: rotation 60s linear infinite forwards;
+}
